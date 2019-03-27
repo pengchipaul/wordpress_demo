@@ -1,0 +1,23 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.navbar .brand {
+  margin-left: 15%;
+}
+
+.navbar-color {
+  background-color: #f9f9f4;
+}
+
+.navbar .right a:hover {
+  color: white !important;
+}
+
+.navbar .right a.btn {
+  border-radius: 0;
+}

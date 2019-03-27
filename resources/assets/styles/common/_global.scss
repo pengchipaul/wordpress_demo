@@ -1,0 +1,53 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-family: GilroyBold, sans-serif;
+  font-weight: bold !important;
+}
+
+input,
+button {
+  font-family: GilroyBold, sans-serif;
+  font-weight: bold !important;
+}
+
+p,
+.text-title {
+  font-family: GilroyBold, sans-serif;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.text-strong {
+  font-family: GilroyStrong, sans-serif;
+  font-weight: 550 !important;
+}
+
+.text-bolder {
+  font-family: GilroyBolder, sans-serif;
+  font-weight: bolder !important;
+}
+
+.text-plain {
+  font-family: Gilroy, sans-serif;
+  font-weight: 400 !important;
+}
+
+.text-xs {
+  font-size: 10px;
+}
+
+.text-sm {
+  font-size: 13px;
+}
+
+.text-lg {
+  font-size: 24px;
+}
+
+.text-lg-2 {
+  font-size: 26px;
+}
