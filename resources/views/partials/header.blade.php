@@ -1,6 +1,6 @@
 <nav class="navbar navbar-color fixed-top">
-    <a class="brand text-dark" href="{{ home_url('/') }}">
-        {{ get_bloginfo('name', 'display') }}
+    <a class="brand text-dark">
+        The Grove.
     </a>
     <div class="right">
       <div class="d-inline contact-number mr-5 text-title">1300 111 222</div>
