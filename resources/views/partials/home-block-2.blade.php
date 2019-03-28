@@ -2,7 +2,7 @@
   <div class="content-wrapper">
     <div class="container">
       <div class="row">
-        <div class="col-md-7 left-section">
+        <div class="col-md-7 col-sm-12 left-section">
           <div class="text-bolder text-lg-2 title">
               Luptaten tisquid maionseque nemquidem inus
           </div>
@@ -18,9 +18,8 @@
         </div>
       </div>
     </div>
-
-    <div class="image-wrapper">
-      <img src="@asset('images/GettyImages-678834257_high_ext.jpg')" />
-    </div>
   </div>
+  <div class="image-wrapper">
+      <div class="image"></div>
+    </div>
 </div>

@@ -1,9 +1,18 @@
 .footer-section {
   height: 170px;
 
+  @media screen and(max-width: 576px) {
+    height: 100px;
+  }
+
   .content-wrapper {
     margin-left: 24%;
     margin-right: 20%;
+
+    @media screen and(max-width: 576px) {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 
   .right-section img {
@@ -13,11 +22,41 @@
 
   .left-section a {
     padding-left: 20px;
+
+    @media screen and(max-width: 576px) {
+      padding-left: 5px;
+    }
   }
 
   .TG-icon {
     width: 30px;
     height: 55px;
     margin-right: 50px;
+
+    @media screen and(max-width: 576px) {
+      margin-right: 5px;
+    }
+  }
+
+  @media screen and(max-width: 576px) {
+    .right-section img.insta-icon {
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translate(-200%, -50%);
+    }
+
+    .right-section img.fb-icon {
+      position: absolute;
+      top: 50%;
+      left: 100%;
+      transform: translate(-300%, -50%);
+    }
+  }
+
+  @media screen and(max-width: 576px) {
+    a {
+      font-size: 10px;
+    }
   }
 }

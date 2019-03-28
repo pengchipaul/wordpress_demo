@@ -3,7 +3,7 @@
         <div class="hero-text">
             <h1>Ceperchitia quias alit</h1>
             <div class="text-wrapper">
-                <a href="#customer-form" class="text-white text-lg"><u>Register now.</u></a>
+                <a href="#contact-form" class="text-white text-lg"><u>Register now.</u></a>
             </div>
         </div>
     </div>

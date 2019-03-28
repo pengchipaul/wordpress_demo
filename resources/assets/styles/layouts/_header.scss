@@ -14,10 +14,32 @@
   background-color: #f9f9f4;
 }
 
-.navbar .right a:hover {
-  color: white !important;
+.navbar .right .contact-number-wrapper {
+  position: relative;
+  width: 200px;
+  height: 35px;
+
+  @media screen and (max-width: 576px) {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .contact-number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .navbar .right a.btn {
   border-radius: 0;
+}
+
+.navbar .right a.contact-number:hover {
+  color: #c5caa7 !important;
+}
+
+.navbar .right a.register-btn:hover {
+  color: white !important;
 }

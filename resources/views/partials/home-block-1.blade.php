@@ -11,7 +11,7 @@
                     </p>
                     <img src="@asset('images/wave.png')" style="width: 25%" />
                 </div>
-                <div class="col-md-7 pl-5 text-sm">
+                <div class="col-md-7 pl-md-5 text-sm">
                     <p class="text-strong">
                             Sequos quia di nis et eos as comnis earuntest qui
                             doluptur, quo molupta tatendus nobis elendis nit
@@ -27,7 +27,7 @@
                             magnat.
                     </p>
                     <div class="form-wrapper">
-                        @include('partials.form')
+                        @include('partials.form-2')
                     </div>
                 </div>
             </div>

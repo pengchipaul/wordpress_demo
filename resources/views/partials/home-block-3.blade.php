@@ -8,7 +8,7 @@
             volorei cilluptur
           </div>
         </div>
-        <div class="col-md-7 pl-5">
+        <div class="col-md-7 pl-md-5">
           <p class="text-strong text-sm">
               Quidis et minullo rescitias acium ex estionsequam es comnis eum necatatum alitatinte prehenihit laudanda.
           </p>

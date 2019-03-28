@@ -1,4 +1,4 @@
-<form>
+<form id="contact-form">
   <div class="text-title form-title">Register your interest now.</div>
   <input placeholder="Name" id="name">
   <input placeholder="Last Name" id="lastName">
